@@ -1,0 +1,23 @@
+=== SSH Authentication Detection Summary ===
+
+Failed SSH logins by source IP:
+172.18.0.2: 10
+
+Accepted SSH logins by source IP:
+172.18.0.2: 1
+
+Potential brute-force indicators:
+[ALERT] 172.18.0.2 had 10 failed SSH login attempts
+
+Event timeline:
+01. FAILED src_ip=172.18.0.2 user=labuser src_port=60014
+02. FAILED src_ip=172.18.0.2 user=labuser src_port=60026
+03. FAILED src_ip=172.18.0.2 user=labuser src_port=49666
+04. FAILED src_ip=172.18.0.2 user=labuser src_port=49682
+05. FAILED src_ip=172.18.0.2 user=labuser src_port=49698
+06. FAILED src_ip=172.18.0.2 user=labuser src_port=49714
+07. FAILED src_ip=172.18.0.2 user=labuser src_port=35186
+08. FAILED src_ip=172.18.0.2 user=labuser src_port=35188
+09. FAILED src_ip=172.18.0.2 user=labuser src_port=35196
+10. FAILED src_ip=172.18.0.2 user=labuser src_port=58818
+11. ACCEPTED src_ip=172.18.0.2 user=labuser src_port=58832

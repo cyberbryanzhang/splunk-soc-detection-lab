@@ -1,0 +1,10 @@
+=== SSH Login Detection Summary ===
+
+Failed SSH logins by source IP:
+172.18.0.2: 10
+
+Accepted SSH logins by source IP:
+172.18.0.2: 1
+
+Potential brute-force indicators:
+[ALERT] 172.18.0.2 had 10 failed SSH login attempts
